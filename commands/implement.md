@@ -61,11 +61,13 @@ Update the corresponding row in `_index.md`.
 
 ### 1c. Implement with TDD
 
+Read the **coding-standards** skill and apply its conventions (naming, readability, immutability, error handling) throughout all code written in this task.
+
 Apply the **tdd-workflow** to implement the task using the acceptance criteria as the test target:
 
 1. **RED** — Write failing tests that cover each acceptance criterion
 2. **GREEN** — Write the minimum implementation to make all tests pass
-3. **REFACTOR** — Clean up the code without breaking tests
+3. **REFACTOR** — Clean up the code without breaking tests. Apply the **coding-standards** skill (naming, readability, immutability, error handling) during this step.
 4. **VERIFY** — Run type-check and lint; resolve any issues before continuing
 
 ### 1d. Mark Done
@@ -178,10 +180,12 @@ Update `task-<NN>.md` frontmatter: set `status: in-progress`.
 Update the corresponding row in `_index.md` to `in-progress`.
 
 ## 2. Implement with TDD
+Read the coding-standards skill and apply its conventions (naming, readability, immutability, error handling) throughout all code written in this task.
+
 Apply the tdd-workflow skill to implement this task using its acceptance criteria as the test target:
 1. RED   — Write failing tests that cover each acceptance criterion
 2. GREEN — Write the minimum implementation to make all tests pass
-3. REFACTOR — Clean up without breaking tests
+3. REFACTOR — Clean up without breaking tests. Apply the coding-standards skill (naming, readability, immutability, error handling) during this step.
 4. VERIFY — Run type-check and lint; resolve any issues
 
 ## 3. Mark Done
